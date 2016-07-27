@@ -12,7 +12,7 @@
            fetch="https://github.com/LiquidSmooth-Devices" />
 
   <remote  name="ld"
-           fetch="https://github.com/t-rex600" />
+           fetch="https://github.com/LiquidDark-OMS" />
            
   <remote  name="th"
            fetch="https://github.com/TeamHorizon/" />         
@@ -264,7 +264,6 @@
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/selinux" name="platform/external/selinux" />
-  <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="th" revision="mm" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/skia" name="platform/external/skia" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/slf4j" name="platform/external/slf4j" />
@@ -306,7 +305,6 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="th" revision="mm" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="ld" revision="mm" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -316,7 +314,6 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="frameworks_native" remote="th" revision="mm" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="android_frameworks_opt_bluetooth" groups="pdk-cw-fs" remote="cm" revision="cm-13.0" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
@@ -452,7 +449,6 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/Screencast" name="android_packages_apps_Screencast" remote="cm" revision="cm-13.0" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ld" revision="mm" />
   <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" remote="github" revision="mm6.0" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="th" revision="mm" />  
@@ -561,9 +557,16 @@
 
   <!-- New Additions for Liquid -->
   <project path="android" name="android" remote="ld" revision="mm6.0" />
+  <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="ld" revision="mm6.0" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="ld" revision="mm6.0" />  
+  <project path="frameworks/native" name="frameworks_native" remote="ld" revision="mm6.0" groups="pdk" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ld" revision="mm6.0" />
   <project path="vendor/liquid" name="android_vendor_liquid" remote="ld" revision="mm6.0" >
-    <copyfile src="tools/build-liquid.sh" dest="build-liquid.sh" />
+      <copyfile src="tools/build-liquid.sh" dest="build-liquid.sh" />
   </project>
+
+  <!-- OMS -->  
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />  
 
   <!-- Vendor for Device -->
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-13.0" />

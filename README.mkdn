@@ -2,7 +2,7 @@
 LiquidDark Source 
 ----------------------
 
-<img src="https://raw.githubusercontent.com/t-rex600/android/mm6.0/LiquidDark-Logo.png">
+<img src="https://raw.githubusercontent.com/LiquidDark-OMS/android/mm6.0/LiquidDark-Logo.png">
 
 ===================
 Thanks 
@@ -46,7 +46,7 @@ Repositories:
 Before you continue --> run this in the terminal
 
 
-    repo init -u git://github.com/t-rex600/android.git -b mm6.0
+    repo init -u git://github.com/LiquidDark-OMS/android.git -b mm6.0
 
     repo sync
     
