@@ -566,7 +566,7 @@
   </project>
 
   <!-- OMS -->  
-  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />  
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="gh" revision="master" />  
 
   <!-- Vendor for Device -->
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-13.0" />
