@@ -99,7 +99,7 @@
   <project path="external/curl" name="android_external_curl" remote="cm" revision="cm-13.0" />
   <project path="external/deqp" name="platform/external/deqp" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs" />
-  <project path="external/dhcpcd" name="platform/external/dhcpcd" />
+  <project path="external/dhcpcd" name="android_external_dhcpcd" remote="cm" revision="cm-13.0" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" />
   <project path="external/donuts" name="platform/external/donuts" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
@@ -185,6 +185,8 @@
   <project path="external/libncurses" name="android_external_libncurses" remote="cm" revision="cm-13.0" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" remote="cm" revision="cm-13.0" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" groups="pdk" remote="cm" revision="cm-13.0" />
+  <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="cm" revision="cm-13.0" />
+  <project path="external/libnfnetlink" name="android_external_libnfnetlink" remote="cm" revision="cm-13.0" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
