@@ -187,8 +187,6 @@
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" remote="cm" revision="cm-13.0" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" groups="pdk" remote="cm" revision="cm-13.0" />
   <project path="external/libnfnetlink" name="android_external_libnfnetlink" remote="cm" revision="cm-13.0" />
-  <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="cm" revision="cm-13.0" />
-  <project path="external/libnfnetlink" name="android_external_libnfnetlink" remote="cm" revision="cm-13.0" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
