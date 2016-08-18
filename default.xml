@@ -61,7 +61,7 @@
   <project path="development" name="android_development" groups="pdk-cw-fs" remote="th" revision="mm" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
   <project path="device/qcom/common" name="android_device_qcom_common" remote="cm" revision="cm-13.0" />
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="cm" revision="cm-13.0" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="th" revision="mm" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="android_external_android-clat" groups="pdk-cw-fs" remote="cm" revision="cm-13.0" />
@@ -182,9 +182,11 @@
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmpeg2" name="platform/external/libmpeg2" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs" />
+  <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="cm" revision="cm-13.0" />
   <project path="external/libncurses" name="android_external_libncurses" remote="cm" revision="cm-13.0" />
   <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" remote="cm" revision="cm-13.0" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" groups="pdk" remote="cm" revision="cm-13.0" />
+  <project path="external/libnfnetlink" name="android_external_libnfnetlink" remote="cm" revision="cm-13.0" />
   <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" remote="cm" revision="cm-13.0" />
   <project path="external/libnfnetlink" name="android_external_libnfnetlink" remote="cm" revision="cm-13.0" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
@@ -371,6 +373,8 @@
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" remote="cm" revision="cm-13.0" groups="qcom,qcom_audio" />
   <project path="hardware/qcom/audio-caf/apq8084" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8084" />
   <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8937" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8937" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8952" />
   <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-13.0-caf-8994" />
@@ -381,6 +385,8 @@
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="cm-13.0" groups="qcom,qcom_display" />
   <project path="hardware/qcom/display-caf/apq8084" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8084" />
   <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8937" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8937" />
+  <project path="hardware/qcom/display-caf/msm8952" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8952" />
   <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8974" />
   <project path="hardware/qcom/display-caf/msm8994" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8994" />
@@ -391,6 +397,8 @@
   <project path="hardware/qcom/media/default" name="android_hardware_qcom_media" remote="cm" revision="cm-13.0" groups="qcom" />
   <project path="hardware/qcom/media-caf/apq8084" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-13.0-caf-8084" />
   <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-13.0-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8937" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-13.0-caf-8937" />
+  <project path="hardware/qcom/media-caf/msm8952" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-13.0-caf-8952" />
   <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-13.0-caf-8960" />
   <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-13.0-caf-8974" />
   <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-13.0-caf-8994" />
