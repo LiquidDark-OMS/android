@@ -88,7 +88,7 @@
   <project path="external/cblas" name="platform/external/cblas" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
-  <project path="external/chromium-webview" name="platform/external/chromium-webview" />
+  <project path="external/chromium-webview" name="PureNexusProject-Legacy/external_chromium-webview" remote="gh" revision="mm2" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" />
