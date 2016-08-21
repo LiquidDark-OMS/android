@@ -569,6 +569,7 @@
   <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="ld" revision="mm6.0" />
   <project path="frameworks/base" name="android_frameworks_base" remote="ld" revision="mm6.0" />  
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ld" revision="mm6.0" />
+  <project path="packages/apps/OmniSwitch" name="ResurrectionRemix/android_packages_apps_OmniSwitch" remote="gh" revision="marshmallow" />
   <project path="vendor/liquid" name="android_vendor_liquid" remote="ld" revision="mm6.0" >
       <copyfile src="tools/build-liquid.sh" dest="build-liquid.sh" />
   </project>
