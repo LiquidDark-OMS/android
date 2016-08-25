@@ -50,8 +50,8 @@ Building the System
 
 Build LiquidSmooth with the following command
 
-1.) . build/envsetup.sh
-2.) brunch xxxx yyyy
+    . build/envsetup.sh+
+    brunch xxxx yyyy
 
 xxxx= device name aka shamu
 yyyy= build type (user,userdebug,eng)*
