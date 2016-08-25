@@ -5,12 +5,6 @@ LiquidDark Source
 <img src="https://raw.githubusercontent.com/LiquidDark-OMS/android/mm6.0/LiquidDark-Logo.png">
 
 ===================
-Thanks 
-- LiquidSmooth 
-- TeamHorizon
-- CM
-- UBERTC
-and more
 
 To get started with LiquidDark, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/version-control.html).
@@ -46,7 +40,7 @@ Repositories:
 Before you continue --> run this in the terminal
 
 
-    repo init -u git://github.com/LiquidDark-OMS/android.git -b mm6.0
+    repo init -u https://github.com/LiquidDark-OMS/android.git -b n
 
     repo sync
     
@@ -56,29 +50,10 @@ Building the System
 
 Build LiquidSmooth with the following command
 
-    ./build-liquid.sh {options} {device}
+1.) . build/envsetup.sh
+2.) brunch xxxx yyyy
 
-Use the following as options...
----------------
+xxxx= device name aka shamu
+yyyy= build type (user,userdebug,eng)*
 
-    Options:
-    -c# Cleanin options before build:
-            c1 - make liquid
-            c2 - make clean
-            c3 - make dirty
-            c4 - make magic
-            c5 - make kernelclean
-    -d  Use dex optimizations
-    -i  Static Initlogo
-    -j# Set jobs
-    -s  Sync before build
-    -p  Build using pipe
-    -o# Select GCC O Level
-            Valid O Levels are
-            1 (Os) or 3 (O3)
-    -z  create build log in 'build-logs'"
-
-Example:
----------------
-    ./build-liquid.sh -c3 -p -o3 -j12 hammerhead
-    ./build-liquid.sh -c3 -p -o3 -j12 mako
+*if no build type is specified "userdebug" is default
