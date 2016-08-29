@@ -83,7 +83,7 @@
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bson" name="android_external_bson" remote="cm" revision="cm-13.0" />
-  <project path="external/busybox" name="android_external_busybox" remote="th" revision="mm" />
+  <project path="external/busybox" name="android_external_busybox" remote="ld" revision="mm" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/cblas" name="platform/external/cblas" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs" />
@@ -325,7 +325,7 @@
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" groups="pdk-cw-fs" remote="th" revision="mm" />
+  <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" groups="pdk-cw-fs" remote="ld" revision="mm" />
   <project path="frameworks/opt/inputconnectioncommon" name="platform/frameworks/opt/inputconnectioncommon" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs" remote="th" revision="mm" />
