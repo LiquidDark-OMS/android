@@ -336,7 +336,7 @@
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="th" revision="mm" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/vcard" name="frameworks_opt_vcard" groups="pdk-cw-fs" remote="th" revision="mm" />
+  <project path="frameworks/opt/vcard" name="frameworks_opt_vcard" groups="pdk-cw-fs" remote="ld" revision="mm" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" />
